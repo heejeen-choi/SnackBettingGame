@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/bg_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#B7CADB"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tv_pnum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0.00"
+        android:textSize="60sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.805"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.514" />
+
+    <TextView
+        android:id="@+id/tv_people"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="사람 1"
+        android:textSize="60sp"
+        app:layout_constraintBottom_toTopOf="@+id/tv_random3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.766" />
+
+    <TextView
+        android:id="@+id/tv_random3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="목표"
+        android:textSize="48sp"
+        app:layout_constraintBottom_toTopOf="@+id/tv_pnum"
+        app:layout_constraintEnd_toEndOf="@+id/tv_pnum"
+        app:layout_constraintHorizontal_bias="0.166"
+        app:layout_constraintStart_toStartOf="@+id/tv_pnum"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.929" />
+
+    <TextView
+        android:id="@+id/tv_timer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="68dp"
+        android:layout_marginLeft="68dp"
+        android:text="0.00"
+        android:textSize="60sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.514" />
+
+    <TextView
+        android:id="@+id/tv_timer2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginLeft="12dp"
+        android:text="현재"
+        android:textSize="48sp"
+        app:layout_constraintBottom_toTopOf="@+id/tv_timer"
+        app:layout_constraintStart_toStartOf="@+id/tv_timer"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.933" />
+
+    <Button
+        android:id="@+id/btn_star"
+        style="@style/customButtonFontStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="시작/정지"
+        android:textSize="48sp"
+        app:backgroundTint="#816797"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_pnum"
+        app:layout_constraintVertical_bias="0.387" />
+
+    <Button
+        android:id="@+id/btn_i"
+        style="@style/customButtonFontStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="홈으로"
+        android:textSize="24sp"
+        app:backgroundTint="#3BACB6"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_pnum"
+        app:layout_constraintVertical_bias="0.768" />
+
+    <TextView
+        android:id="@+id/tv_point"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_timer"
+        app:layout_constraintVertical_bias="0.057" />
+</androidx.constraintlayout.widget.ConstraintLayout>

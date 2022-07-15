@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#B7CADB"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tv_pnum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2"
+        android:textSize="60sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.47" />
+
+    <TextView
+        android:id="@+id/tv_people"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="사람 수"
+        android:textSize="60sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.208" />
+
+    <Button
+        android:id="@+id/btn_start"
+        style="@style/customButtonFontStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="시작"
+        android:textSize="48sp"
+        app:backgroundTint="#816797"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.527"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_pnum"
+        app:layout_constraintVertical_bias="0.632" />
+
+    <Button
+        android:id="@+id/btn_plus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="60dp"
+        android:layout_marginRight="60dp"
+        android:text="+"
+        android:textSize="48sp"
+        app:backgroundTint="#A8A4CE"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.472" />
+
+    <Button
+        android:id="@+id/btn_minus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="60dp"
+        android:layout_marginLeft="60dp"
+        android:text="-"
+        android:textSize="48sp"
+        app:backgroundTint="#A8A4CE"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.472" />
+
+    <Button
+        android:id="@+id/btn_blind"
+        style="@style/customButtonFontStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Blind 모드 OFF"
+        android:textSize="24sp"
+        app:backgroundTint="#3BACB6"
+        app:layout_constraintBottom_toTopOf="@+id/btn_start"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_pnum"
+        app:layout_constraintVertical_bias="0.63" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
