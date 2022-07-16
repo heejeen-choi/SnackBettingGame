@@ -5,9 +5,8 @@
 
 
 ### Android app
-<details>
 
-![Alt Text](https://media.giphy.com/media/vFKqnCdLPNOKc/giphy.gif)
+![sbg](https://user-images.githubusercontent.com/99302996/179360480-73fc7de1-d927-43a2-90da-e55e225c6ddd.gif)
 
   
 </details>
