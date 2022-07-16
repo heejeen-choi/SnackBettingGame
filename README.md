@@ -9,7 +9,7 @@
     <summaary>자세히</summaary>
 
 <p align="center">
-<img src="![snack_betting_game](https://user-images.githubusercontent.com/99302996/179356475-55b879be-1920-4178-a3c1-8a3f8d1a9bc1.gif)
+<img src="![snack_betting_game](https://user-images.githubusercontent.com/99302996/179358381-227fcd2c-e7dd-400f-bd92-e209266a01f4.gif)
 ">
 </p>
   
