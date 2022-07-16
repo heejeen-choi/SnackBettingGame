@@ -1,4 +1,4 @@
-# 프로젝트 이름
+# 간식내기 랜덤카운팅 어플
 
 ## 목차
 [메인파일](https://github.com/kosaay/SnackBattingGame/blob/master/app/src/main/java/com/portpolio/myapplication/MainActivity.kt)  
