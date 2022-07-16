@@ -6,7 +6,7 @@
 
 ### Android app
 
-![sbg](https://user-images.githubusercontent.com/99302996/179360480-73fc7de1-d927-43a2-90da-e55e225c6ddd.gif | width=100)
+![sbg](https://user-images.githubusercontent.com/99302996/179360480-73fc7de1-d927-43a2-90da-e55e225c6ddd.gif){: .align-center}
 
   
 </details>
